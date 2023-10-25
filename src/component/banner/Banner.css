@@ -1,0 +1,37 @@
+
+.container-Banner{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 0 25px;
+}
+
+.container-Banner .img1{
+    width: 30%;
+    height: 340px;
+}
+
+.container-Banner .img2{
+    width: 70%;
+    height: 340px;
+}
+
+
+@media screen and (max-width:700px) {
+    .container-Banner{
+        flex-direction: column;
+        
+    }
+    .container-Banner .img1{
+        width: 50%;
+    }
+    
+    .container-Banner .img2{
+        width: 90%;
+    }
+}
+
+
+
+
+

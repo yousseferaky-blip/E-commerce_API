@@ -1,0 +1,89 @@
+footer {
+    background-color: #0f3460;
+    padding: 100px 0;
+    color: #fff;
+     overflow-x: hidden;
+  }
+  .container-Footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 20px;
+  }
+  footer h1 {
+    margin-bottom: 30px;
+    color: #e94560;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .container-Footer .icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-Footer .img {
+    background-color: #0c2a4d;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px 0;
+    margin: 5px;
+  }
+  .container-Footer .img:hover{
+    background: #fff;
+    color: #0c2a4d;
+  }
+  .container-Footer .img:hover i {
+    color: #0c2a4d;
+  }
+  footer .img i {
+    font-size: 20px;
+    margin: 5px;
+    color: #fff;
+  }
+  footer .img span {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.5;
+    margin-bottom: 20px;
+  }
+  footer h2 {
+    margin-bottom: 20px;
+  }
+  footer li {
+    margin-bottom: 10px;
+    opacity: 0.5;
+    list-style: none;
+  }
+
+@media screen and (max-width:800px) {
+    .container-Footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0 20px;
+      }
+}
+@media screen and (max-width:650px) {
+    .container-Footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0 20px;
+      }
+}
+@media screen and (max-width:530px) {
+    .container-Footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0 20px;
+      }
+}
+
+
+
+
+
+
+
+
+

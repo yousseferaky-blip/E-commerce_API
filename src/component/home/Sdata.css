@@ -1,0 +1,51 @@
+
+.Sdata-Container{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    padding: 0 100px;
+    height: 350px;
+}
+
+.Sdata-Container .left{
+    width: 60%;
+}
+
+.Sdata-Container .left h1{
+    font-size: 50px;
+}
+
+.Sdata-Container .left p{
+    letter-spacing: 1.05px;
+}
+
+.Sdata-Container .left  button{
+    padding: 8px 25px ;
+    cursor: pointer;
+    background: var(--clr-grey-1);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:890px) {
+    .Sdata-Container{
+       flex-direction: column;
+        height: auto;
+        gap: 50px;
+        padding: 0 70px;
+    }
+    .Sdata-Container .left{
+        width: 90%;
+    }
+    .Sdata-Container .right{
+        height: 400px;
+    }
+}
+@media screen and (max-width:440px) {
+    .Sdata-Container{
+        padding: 0 0px;
+    }
+    
+}

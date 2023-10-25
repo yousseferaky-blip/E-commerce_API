@@ -1,0 +1,40 @@
+
+.DiscountD-Container{
+    margin-top: 50px;
+    
+}
+
+.DiscountD{
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    margin: 150px  10px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.DiscountD h4 {
+    font-weight: 400;
+}
+
+.DiscountD span {
+    color: #e94560;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width:600px) {
+    .DiscountD-Container{
+      display: none;
+    }
+}
+
+
+
+
+
+
+
+
+

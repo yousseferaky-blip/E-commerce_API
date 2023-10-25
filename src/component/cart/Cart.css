@@ -1,0 +1,135 @@
+
+.Cart-Container{
+    margin-top: 100px;
+}
+
+.Cart-Item{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.Cart-Left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Cart-Item-Image{
+    width: 250px;
+    height: 300px;
+}
+
+.Cart-Item-Image img{
+    width: 100%;
+    height: 100%;
+}
+
+.Cart-Item-Info h4{
+    font-size: 20px;
+    color: var(--clr-grey-3);
+    width: 80%;
+}
+
+.Cart-Item-quantity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.quantity{
+    cursor: pointer;
+}
+
+.quantity:hover{
+    color: var(--clr-grey-3);
+}
+
+.Cart-Right{
+    margin-right: 25px;
+    color: var(--clr-grey-1);
+}
+
+.Cart-Right span{
+    color: green;
+    margin-left: 5px;
+}
+
+.Delete{
+    color: var(--clr-grey-2);
+    cursor: pointer;
+}
+
+.Delete:hover{
+    color: var(--clr-grey-4);
+}
+.No-Item{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+.Total-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+.Total-Container h1{
+    color: var(--clr-grey-3);
+    border-top: 1px solid var(--clr-grey-7);
+    border-bottom: 1px solid var(--clr-grey-7);
+}
+
+.Total-Container span{
+    color: green;
+    margin-left: 5px;
+}
+
+.Total-Container button{
+    padding: 8px 20px;
+    background: var(--clr-grey-2);
+    color: var(--clr-grey-10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+@media screen and (max-width:800px) {
+    .Cart-Item{
+       flex-direction: column;
+       border-bottom: 1px solid var(--clr-grey-1);
+       width: 85%;
+       margin:25px auto;
+    }
+    .Cart-Left{
+        display: flex;
+        align-items: center;
+    }
+    .Cart-Left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .Cart-Item-Info h4{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Cart-Item-quantity{
+        justify-content: center;
+    }
+    .Cart-Right{
+        display: flex;
+        gap: 80px;
+    }
+}
+
+
+
+
+
